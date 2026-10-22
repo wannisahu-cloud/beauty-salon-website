@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>AURA Hair Atelier &amp; Salon</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-fixed-variant": "#474743", "on-secondary-fixed-variant": "#584400", "on-primary": "#3c2f00", "on-tertiary": "#30312d", "surface-dim": "#131313", "surface-container-highest": "#353534", "outline": "#99907c", "inverse-surface": "#e5e2e1", "surface": "#131313", "outline-variant": "#4d4635", "surface-container-high": "#2a2a2a", "tertiary-fixed-dim": "#c8c6c1", "on-secondary-fixed": "#241a00", "on-primary-fixed": "#241a00", "primary-fixed": "#ffe088", "on-tertiary-fixed": "#1b1c18", "surface-container-lowest": "#0e0e0e", "on-tertiary-container": "#454541", "on-error": "#690005", "on-primary-fixed-variant": "#574500", "surface-variant": "#353534", "on-secondary": "#3d2f00", "primary-fixed-dim": "#e9c349", "surface-bright": "#393939", "secondary-container": "#896c00", "inverse-on-surface": "#313030", "inverse-primary": "#735c00", "surface-container": "#201f1f", "primary": "#f2ca50", "tertiary": "#d0cec9", "tertiary-container": "#b4b3ae", "secondary-fixed-dim": "#e7c35a", "surface-tint": "#e9c349", "on-background": "#e5e2e1", "tertiary-fixed": "#e4e2dd", "error": "#ffb4ab", "on-surface": "#e5e2e1", "background": "#131313", "on-surface-variant": "#d0c5af", "secondary-fixed": "#ffe08b", "on-error-container": "#ffdad6", "surface-container-low": "#1c1b1b", "on-primary-container": "#554300", "secondary": "#e7c35a", "error-container": "#93000a", "on-secondary-container": "#fff3dc", "primary-container": "#d4af37" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xl": "2.25rem", "space-lg": "1.5rem", "margin-lg": "2rem", "space-sm": "0.5rem", "gutter": "1rem", "gutter-mobile": "0.75rem", "margin-sm": "1rem", "margin": "1.25rem", "space-md": "1rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-md": ["Playfair Display"], "headline-lg-mobile": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg": ["Playfair Display"], "headline-lg": ["Playfair Display"], "headline-sm": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "500" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "title-md": ["16px", { "lineHeight": "22px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "label-lg": ["13px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "700" }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface-dim/85 backdrop-blur-xl shadow-[0_1px_16px_rgba(0,0,0,0.6)] pt-safe"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="AURA Salon Emblem Logo" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIYkkDuH8FqcwfKLsd3RBzEqJYmJgUhaffDyuBCVU9dvMw8chbM8e8p54srvEzXtbCWy0jhJjq-siJwMFV-j2O3a5iw3gfpqKhbRrljSZXhh9v4eN-9gU8ajOu_UmHUvDXtAoIeI8oK_BCnQzkiVvjU5NBvKiLdAaAVVKoPCdaI6bljmYusgZr82gZr1SNXPnJk3kgLYkvTNfbv8uSWCODy4_PSRkCUX2QI0Fb7L1M7Exc_co2HIcbkg"/><div class="flex flex-col truncate"><div class="flex items-center gap-1.5"><span class="font-headline-sm text-headline-sm text-primary tracking-wider uppercase truncate">AURA</span><span class="text-outline/40">•</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface truncate">Services</span></div><span class="font-label-sm text-label-sm uppercase tracking-[0.16em] text-on-surface-variant truncate">Haute Salon &amp; Spa</span></div></div><div class="flex items-center gap-space-xs shrink-0"><a aria-label="Consultation Call" class="w-11 h-11 rounded-full bg-surface-container-high/70 text-primary hover:text-primary-fixed flex items-center justify-center transition-colors" href="tel:+6620000000"><span class="material-symbols-outlined text-[20px]">phone_in_talk</span></a><div class="w-11 h-11 flex items-center justify-center shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_0_10px_rgba(212,175,55,0.25)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt77Oq8UruiGuAnhjnQsXbz30TZpenxPdu4otMDk8qGv1PEvtuWuwvXjYQ7TdJ0z1aXKhC0dmBp3cflqgVYZ9gTFe_zQdlXy8UL2BLvzhV14n-Ry6kghc2Knvx7Y0PP9EYhern9KMKREyZzhMC6lP6D5D6CYyeGTKpxiOC9D1yYzMLkxxSXhbi-i5XDY5iTy_IR8lFVPUAhqxHG0r9hbOmjmDVSv4wrb17qV8_zqga2xwFkooHxN_lcw"/></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full text-on-surface">
+<!-- Subtle Ambient Glow -->
+<div class="relative w-full px-margin pt-4 pb-2">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">Haute Coiffure Menu</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">เมนูบริการและทรีตเมนต์</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">รังสรรค์สุนทรียะแห่งเรือนผมด้วยความประณีตระดับงานกูตูร์</p>
+</div>
+<!-- Luxury Search Bar -->
+<div class="mt-4 relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-outline text-[20px] pointer-events-none">search</span>
+<input class="w-full h-12 pl-11 pr-10 rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline/70 font-body-sm text-body-sm focus:outline-none focus:bg-surface-container shadow-md transition-all duration-200" id="serviceSearch" placeholder="ค้นหาชื่อบริการ, ทรีตเมนต์, ซิกเนเจอร์..." type="text"/>
+<button class="hidden absolute right-3 w-6 h-6 rounded-full bg-surface-container-highest text-on-surface-variant items-center justify-center transition-opacity" id="clearSearch">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<!-- Category Pills Navigation -->
+<div class="mt-4 -mx-margin px-margin flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth py-1" id="categoryNav">
+<button class="cat-pill active shrink-0 px-4 py-2 rounded-full font-label-lg text-label-lg transition-all duration-200 bg-primary/20 text-primary shadow-[0_0_12px_rgba(212,175,55,0.2)]" data-cat="all">
+        ทั้งหมด (All)
+      </button>
+<button class="cat-pill shrink-0 px-4 py-2 rounded-full font-label-lg text-label-lg transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="cut">
+        ตัด &amp; เซ็ตผม
+      </button>
+<button class="cat-pill shrink-0 px-4 py-2 rounded-full font-label-lg text-label-lg transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="color">
+        ทำสี &amp; ไฮไลท์
+      </button>
+<button class="cat-pill shrink-0 px-4 py-2 rounded-full font-label-lg text-label-lg transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="spa">
+        ทรีตเมนต์ &amp; สปา
+      </button>
+<button class="cat-pill shrink-0 px-4 py-2 rounded-full font-label-lg text-label-lg transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="perm">
+        ดัด &amp; ยืดวอลลุ่ม
+      </button>
+</div>
+</div>
+<!-- Editorial Highlight Banner -->
+<div class="px-margin my-3">
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low shadow-xl p-4 flex items-center gap-3">
+<div class="relative w-16 h-16 rounded-lg overflow-hidden shrink-0 shadow-md">
+<img class="w-full h-full object-cover" data-alt="Close up artistic aesthetic of glowing shiny polished healthy hair under warm luxury amber spotlight in dark salon atelier, high-fashion editorial mood" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmIiT-3b-z1kq-_LgEPf1_ehxXHMsBmJUCozXANifYQAse2MnFDwFFAGVk1E7aIs5Eb5pP8Quc1Le3mTWpnjjQTO5bRDP36UBAJYd7GwFIRdtPuCYupRxZAV0ov1vSZ3E0-9ThYoiNwmI1cvEhiRyDfnvHj0UlkiixrS1MlHekz7VKC6aJNnCAxs1dBPU9_IKlUu_nijwLDbIyK1XnKvp3fEy2fAEXLYKWkeGDLk3XIX77hXxMa6Fdew"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 to-transparent"></div>
+</div>
+<div class="flex flex-col min-w-0 pr-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Atelier Ritual Privilège</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface truncate">ปรึกษาและวิเคราะห์สภาพเส้นผมฟรี</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">วิเคราะห์ด้วยกล้อง Micro-Dermal Scope มูลค่า 1,500฿ ทุกนัดหมาย</p>
+</div>
+</div>
+</div>
+<!-- Service List Container -->
+<div class="flex flex-col gap-6 px-margin pb-32 mt-2" id="serviceCatalog">
+<!-- Category 1: ตัดและออกแบบทรงผม -->
+<section class="service-category-group flex flex-col gap-3" data-cat-group="cut">
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">content_cut</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">ตัดและออกแบบทรงผม</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">3 รายการ</span>
+</div>
+<!-- Item 1.1 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="c1" data-service-price="1800" data-service-time="60 นาที" data-service-title="Signature Atelier Cut">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/40 text-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider">Iconic</span>
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 60 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Signature Atelier Cut</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">สระทำความสะอาด นวดผ่อนคลายศีรษะด้วยน้ำมันอโรม่า ออกแบบทรงผมเฉพาะบุคคลตามรูปหน้า และเซ็ตติ้งสไตล์ระดับรันเวย์</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">1,800฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> ช่างระดับ Master Designer
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+<!-- Item 1.2 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="c2" data-service-price="1500" data-service-time="45 นาที" data-service-title="Gentleman Tailored Cut &amp; Beard Grooming">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 45 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Gentleman Tailored Cut &amp; Beard Grooming</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">บริการตัดผมสุภาพบุรุษสไตล์คลาสสิกโมเดิร์น พร้อมบริการแต่งกันขอบเครา ประคบผ้าร้อนกลิ่นแซนดัลวูดบริสุทธิ์</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">1,500฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">verified</span> ผลิตภัณฑ์จัดแต่งนำเข้าจากมิลาน
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+<!-- Item 1.3 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="c3" data-service-price="1200" data-service-time="45 นาที" data-service-title="Red Carpet Blowout &amp; Styling">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 45 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Red Carpet Blowout &amp; Styling</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">สระเป่าเซ็ตทรงผมวอลลุ่มหรูหรา ลอนคลื่นธรรมชาติ หรือสลิคเรียบตรงสะท้อนแสงไฟสำหรับงานกาล่าและโอกาสพิเศษ</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">1,200฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">auto_fix_high</span> เซ็ตติ้งล็อกทรงยาวนาน 18 ชม.
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Visual Divider -->
+<div class="w-full flex items-center justify-center py-1 opacity-40">
+<div class="h-px bg-outline/20 w-full max-w-[200px]"></div>
+<span class="material-symbols-outlined text-outline text-[16px] px-2">flare</span>
+<div class="h-px bg-outline/20 w-full max-w-[200px]"></div>
+</div>
+<!-- Category 2: ทำสีผมระดับไฮเอนด์ -->
+<section class="service-category-group flex flex-col gap-3" data-cat-group="color">
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">palette</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">ทำสีผมระดับไฮเอนด์</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">3 รายการ</span>
+</div>
+<!-- Item 2.1 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="cl1" data-service-price="5500" data-service-time="180 นาที" data-service-title="French Balayage &amp; Glossing">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-full bg-primary/20 text-primary font-label-sm text-label-sm uppercase tracking-wider">Haute Signature</span>
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 180 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">French Balayage &amp; Glossing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">เทคนิคเพ้นท์เฉดสีไล่ระดับสไตล์ปารีเซียง รวมการฟอกถนอมโครงสร้างบอนด์ผม เคราตินเกราะป้องกัน และเคลือบเงาไดมอนด์กลอส</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">5,500฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">science</span> เทคโนโลยี Bond-Builder Plex
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+<!-- Item 2.2 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="cl2" data-service-price="3900" data-service-time="120 นาที" data-service-title="Full Organic Mineral Color">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 120 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Full Organic Mineral Color</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">เปลี่ยนสีผมหรือปกปิดผมขาว 100% ด้วยเม็ดสีแร่ธาตุออร์แกนิก ปราศจากแอมโมเนีย อ่อนโยน ไม่ฉุน ไม่แสบร้อนหนังศีรษะ</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">3,900฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">eco</span> สูตรสกัดจากพฤกษศาสตร์ธรรมชาติ
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+<!-- Item 2.3 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="cl3" data-service-price="4200" data-service-time="150 นาที" data-service-title="Platinum Face-Framing Babylights">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 150 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Platinum Face-Framing Babylights</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">เทคนิคไฮไลท์เส้นไหมละเอียดล้อมกรอบใบหน้า เพิ่มมิติให้ดวงหน้าดูสว่างเปล่งปลั่ง นุ่มนวล ดูมีออร่ายามต้องแสงไฟ</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">4,200฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">light_mode</span> ปรับมิติผิวให้ดูสว่างละมุน
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Visual Divider -->
+<div class="w-full flex items-center justify-center py-1 opacity-40">
+<div class="h-px bg-outline/20 w-full max-w-[200px]"></div>
+<span class="material-symbols-outlined text-outline text-[16px] px-2">flare</span>
+<div class="h-px bg-outline/20 w-full max-w-[200px]"></div>
+</div>
+<!-- Category 3: ทรีตเมนต์และสปาผม -->
+<section class="service-category-group flex flex-col gap-3" data-cat-group="spa">
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">spa</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">ทรีตเมนต์และสปาผม</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">3 รายการ</span>
+</div>
+<!-- Item 3.1 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="sp1" data-service-price="4500" data-service-time="90 นาที" data-service-title="Caviar &amp; Gold Leaf Scalp Therapy">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-full bg-primary/20 text-primary font-label-sm text-label-sm uppercase tracking-wider">Opulent Care</span>
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 90 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Caviar &amp; Gold Leaf Scalp Therapy</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">ฟื้นบำรุงเซลล์รากผมด้วยสารสกัดคาเวียร์ดำสวิสและแผ่นทองคำบริสุทธิ์ 24K ชะลอความเสื่อมสภาพ คืนความดกหนาเงางาม</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">4,500฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">stars</span> สปาในห้องสวีทส่วนตัว VIP
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+<!-- Item 3.2 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="sp2" data-service-price="5200" data-service-time="120 นาที" data-service-title="Keratin Collagen Diamond Infusion">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 120 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Keratin Collagen Diamond Infusion</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">เติมเต็มโปรตีนเคราตินสดระดับนาโนและคอลลาเจนเข้มข้น ซ่อมแซมเกล็ดผมที่ผ่านสารเคมีรุนแรงให้กลับมานุ่มลื่นดั่งแพรไหม</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">5,200฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">diamond</span> ลดการชี้ฟูได้ยาวนานถึง 4 เดือน
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+<!-- Item 3.3 -->
+<article class="service-card relative rounded-xl bg-surface-container shadow-lg p-4 transition-all duration-300" data-service-id="sp3" data-service-price="2800" data-service-time="60 นาที" data-service-title="Detoxifying Head Spa &amp; Micro-Mist Therapy">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 60 นาที
+              </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mt-1.5">Detoxifying Head Spa &amp; Micro-Mist Therapy</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">ดีท็อกซ์ขจัดคราบไขมันอุดตันและมลภาวะ PM 2.5 ด้วยละอองไอน้ำโอโซนอุณหภูมิอุ่น พร้อมนวดกดจุด 12 จุดศีรษะแบบอายุรเวท</p>
+</div>
+<div class="shrink-0 text-right">
+<span class="font-headline-sm text-headline-sm text-primary">2,800฿</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between gap-3 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-3 rounded-b-xl">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">air</span> สปาไอหมอก Micro-Mist จากญี่ปุ่น
+          </span>
+<button class="select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>เลือกบริการ</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Empty Search State -->
+<div class="hidden flex-col items-center justify-center py-16 px-4 text-center" id="noResultsState">
+<div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center text-outline mb-3">
+<span class="material-symbols-outlined text-[32px]">search_off</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">ไม่พบรายการที่ค้นหา</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 max-w-[240px]">ลองค้นหาด้วยคำอื่น หรือเลือกชมรายการบริการตามหมวดหมู่</p>
+<button class="mt-4 px-4 py-2 rounded-lg bg-surface-container-highest text-primary font-label-lg text-label-lg" id="resetSearchBtn">
+        ล้างการค้นหา
+      </button>
+</div>
+<!-- Atelier Guarantee Note -->
+<div class="mt-2 p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 shadow-md">
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">verified_user</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-primary tracking-wide uppercase">AURA Bespoke Guarantee</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">ทุกบริการใช้อุปกรณ์และหวีที่ผ่านการฆ่าเชื้อระบบอัลตร้าโซนิคระดับ Medical-Grade สำหรับแขกผู้มีเกียรติทุกท่านแบบ 1:1</p>
+</div>
+</div>
+</div>
+<!-- Sticky Bottom Concierge Booking Bar -->
+<aside class="fixed bottom-16 inset-x-0 z-40 px-margin pb-3 pt-2 bg-surface-dim/95 backdrop-blur-xl shadow-[0_-8px_24px_rgba(0,0,0,0.8)] transform translate-y-full transition-transform duration-300 ease-out" id="stickyBookingBar">
+<div class="max-w-md mx-auto flex items-center justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center justify-center font-bold" id="selectedCountBadge">0</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">บริการที่เลือก</span>
+</div>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-body-sm text-body-sm text-on-surface-variant">ยอดรวม</span>
+<span class="font-headline-sm text-headline-sm text-primary tracking-tight" id="selectedTotalPrice">0฿</span>
+</div>
+</div>
+<a class="h-12 px-6 rounded-lg bg-gradient-to-r from-primary-container via-primary to-primary-fixed text-on-primary font-label-lg text-label-lg uppercase tracking-wider flex items-center justify-center gap-2 shadow-[0_4px_16px_rgba(212,175,55,0.35)] active:scale-95 transition-transform" data-path="book-appointment" href="#">
+<span>ดำเนินการจองคิว</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</aside>
+<!-- Interactive JavaScript logic for selection & filter -->
+<script>
+    (function initServicesInteractions() {
+      const selectedServices = new Map();
+      const stickyBar = document.getElementById('stickyBookingBar');
+      const countBadge = document.getElementById('selectedCountBadge');
+      const totalPriceEl = document.getElementById('selectedTotalPrice');
+      const cards = document.querySelectorAll('.service-card');
+      const catPills = document.querySelectorAll('.cat-pill');
+      const categoryGroups = document.querySelectorAll('.service-category-group');
+      const searchInput = document.getElementById('serviceSearch');
+      const clearSearchBtn = document.getElementById('clearSearch');
+      const noResultsState = document.getElementById('noResultsState');
+      const resetSearchBtn = document.getElementById('resetSearchBtn');
+
+      function updateStickyBar() {
+        const count = selectedServices.size;
+        if (count > 0) {
+          countBadge.textContent = count;
+          let total = 0;
+          selectedServices.forEach(item => total += item.price);
+          totalPriceEl.textContent = total.toLocaleString() + '฿';
+          stickyBar.classList.remove('translate-y-full');
+        } else {
+          stickyBar.classList.add('translate-y-full');
+        }
+      }
+
+      cards.forEach(card => {
+        const id = card.dataset.serviceId;
+        const title = card.dataset.serviceTitle;
+        const price = parseInt(card.dataset.servicePrice, 10);
+        const time = card.dataset.serviceTime;
+        const btn = card.querySelector('.select-btn');
+
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const isSelected = selectedServices.has(id);
+
+          if (isSelected) {
+            selectedServices.delete(id);
+            card.classList.remove('bg-surface-container-high', 'shadow-[0_0_0_1px_#d4af37]');
+            card.classList.add('bg-surface-container');
+            btn.innerHTML = '<span class="material-symbols-outlined text-[16px]">add</span><span>เลือกบริการ</span>';
+            btn.className = 'select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-sm';
+          } else {
+            selectedServices.set(id, { title, price, time });
+            card.classList.remove('bg-surface-container');
+            card.classList.add('bg-surface-container-high', 'shadow-[0_0_0_1px_#d4af37]');
+            btn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span><span>เลือกแล้ว</span>';
+            btn.className = 'select-btn flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg tracking-wider uppercase transition-all duration-200 active:scale-95 shadow-md font-bold';
+          }
+          updateStickyBar();
+        });
+      });
+
+      // Filter by Category
+      catPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          catPills.forEach(p => {
+            p.classList.remove('bg-primary/20', 'text-primary', 'shadow-[0_0_12px_rgba(212,175,55,0.2)]');
+            p.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+          });
+          pill.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+          pill.classList.add('bg-primary/20', 'text-primary', 'shadow-[0_0_12px_rgba(212,175,55,0.2)]');
+
+          const category = pill.dataset.cat;
+          categoryGroups.forEach(group => {
+            const groupCat = group.dataset.catGroup;
+            if (category === 'all' || category === groupCat) {
+              group.classList.remove('hidden');
+            } else {
+              group.classList.add('hidden');
+            }
+          });
+          // Scroll back up to catalog start
+          window.scrollTo({ top: 120, behavior: 'smooth' });
+        });
+      });
+
+      // Live search filter
+      function handleSearch() {
+        const query = searchInput.value.trim().toLowerCase();
+        let visibleCount = 0;
+
+        if (query.length > 0) {
+          clearSearchBtn.classList.remove('hidden');
+          clearSearchBtn.classList.add('flex');
+        } else {
+          clearSearchBtn.classList.remove('flex');
+          clearSearchBtn.classList.add('hidden');
+        }
+
+        cards.forEach(card => {
+          const text = (card.dataset.serviceTitle + ' ' + card.innerText).toLowerCase();
+          const matches = text.includes(query);
+          if (matches) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+
+        // Toggle category header visibility based on visible children
+        categoryGroups.forEach(group => {
+          const visibleChildren = group.querySelectorAll('.service-card:not(.hidden)');
+          if (visibleChildren.length === 0) {
+            group.classList.add('hidden');
+          } else {
+            group.classList.remove('hidden');
+          }
+        });
+
+        if (visibleCount === 0) {
+          noResultsState.classList.remove('hidden');
+          noResultsState.classList.add('flex');
+        } else {
+          noResultsState.classList.add('hidden');
+          noResultsState.classList.remove('flex');
+        }
+      }
+
+      searchInput.addEventListener('input', handleSearch);
+
+      clearSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        handleSearch();
+      });
+
+      resetSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        handleSearch();
+        catPills[0].click();
+      });
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-dim/90 backdrop-blur-2xl shadow-[0_-4px_24px_rgba(0,0,0,0.7)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-space-xs relative"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">spa</span><span class="font-label-sm text-label-sm">หน้าแรก</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 transition-colors text-primary font-semibold" data-path="services" href="#"><span class="material-symbols-outlined text-[22px]">content_cut</span><span class="font-label-sm text-label-sm">บริการ</span></a><div class="relative flex flex-col items-center justify-center -top-3"><a class="flex flex-col items-center justify-center w-14 h-14 rounded-full bg-gradient-to-tr from-primary-container via-primary to-primary-fixed text-on-primary shadow-[0_4px_20px_rgba(212,175,55,0.45)] transition-transform active:scale-95" data-path="book-appointment" href="#"><span class="material-symbols-outlined text-[24px]">calendar_today</span></a><span class="font-label-sm text-label-sm text-primary tracking-wide mt-1">จองคิว</span></div><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant transition-colors" data-path="stylists" href="#"><span class="material-symbols-outlined text-[22px]">face</span><span class="font-label-sm text-label-sm">ช่างผม</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant transition-colors" data-path="lookbook" href="#"><span class="material-symbols-outlined text-[22px]">auto_awesome</span><span class="font-label-sm text-label-sm">ผลงาน</span></a></div></nav></body></html>
